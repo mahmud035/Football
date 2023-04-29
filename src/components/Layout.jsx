@@ -7,6 +7,9 @@ import { FaUserAlt, FaRegUser, FaSearch } from 'react-icons/fa';
 import { SiCoinmarketcap } from 'react-icons/si';
 import { RiTeamFill } from 'react-icons/ri';
 import Player from './Player';
+import Profile from './Profile';
+import Chart from './Chart';
+import Rating from './Rating';
 
 const Layout = () => {
   return (
@@ -198,9 +201,19 @@ const Layout = () => {
           >
             <main>
               <div className="px-4 pt-6">
-                <div className="grid w-full grid-cols-1 gap-4 xl:grid-cols-2 ">
-                  <div className="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8">
+                <div className="grid w-full grid-cols-1 gap-4 xl:grid-cols-3 ">
+                  <div className="sm:p-6">
                     <Player />
+                  </div>
+
+                  <div className="col-span-2">
+                    <div className="grid w-full grid-cols-1 gap-4 xl:grid-cols-2">
+                      <Profile />
+                      <Chart />
+                      <div className="col-span-2">
+                        <Rating />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
