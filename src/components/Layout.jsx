@@ -10,6 +10,7 @@ import Player from './Player';
 import Profile from './Profile';
 import Chart from './Chart';
 import Rating from './Rating';
+import Table from './Table';
 
 const Layout = () => {
   return (
@@ -215,6 +216,11 @@ const Layout = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+
+                {/* Table */}
+                <div>
+                  <Table />
                 </div>
               </div>
             </main>
