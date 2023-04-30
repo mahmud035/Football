@@ -3,11 +3,13 @@ import SecondaryButton from './SecondaryButton';
 const Table = () => {
   return (
     <>
-      <div className="mb-20 flex flex-col justify-center  rounded-xl p-7  shadow-md">
+      <div className="mb-20 mt-6 flex flex-col justify-center  rounded-xl bg-[#FCFFFE]  p-7 pb-10 shadow-md">
         <div className="flex items-center gap-1.5 ">
-          <SecondaryButton classes={`bg-[#14314E] w-28`}>Model</SecondaryButton>
+          <SecondaryButton classes={`bg-[#14314E] text-white w-28`}>
+            Model
+          </SecondaryButton>
 
-          <SecondaryButton classes={`btn-outline text-[#14314E] w-28`}>
+          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-28`}>
             Style
           </SecondaryButton>
         </div>

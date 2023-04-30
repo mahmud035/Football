@@ -4,18 +4,18 @@ import SecondaryButton from './SecondaryButton';
 const Profile = () => {
   return (
     <>
-      <div className="flex flex-col justify-center rounded-xl  py-6  shadow-md">
+      <div className="flex h-full flex-col justify-center  rounded-xl  bg-[#FCFFFE] pt-6 shadow-md">
         <div className="flex items-center gap-1.5 px-5">
-          <SecondaryButton classes={`bg-[#14314E] w-28`}>
+          <SecondaryButton classes={`bg-[#14314E] text-white w-28`}>
             Profile
           </SecondaryButton>
 
-          <SecondaryButton classes={`btn-outline text-[#14314E] w-28`}>
+          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-28`}>
             Position
           </SecondaryButton>
         </div>
 
-        <div className="divide-y-2 divide-[#DEDEDE] py-6">
+        <div className="divide-y-2 divide-[#DEDEDE] pb-1 pt-3">
           <ProfileData name="Team" value="Atletico" />
           <ProfileData name="position" value="LW" />
           <ProfileData name="Minutes" value={346} />

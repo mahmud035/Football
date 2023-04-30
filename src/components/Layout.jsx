@@ -201,14 +201,12 @@ const Layout = () => {
             className="relative h-full w-full overflow-y-auto bg-gray-50 lg:ml-64"
           >
             <main>
-              <div className="px-4 pt-6">
-                <div className="grid w-full grid-cols-1 gap-4 xl:grid-cols-3 ">
-                  <div className="sm:p-6">
-                    <Player />
-                  </div>
+              <div className="bg-[#F7F7F7] px-6 pt-12">
+                <div className="grid w-full grid-cols-1 gap-6 xl:grid-cols-3 ">
+                  <Player />
 
                   <div className="col-span-2">
-                    <div className="grid w-full grid-cols-1 gap-4 xl:grid-cols-2">
+                    <div className="grid w-full grid-cols-1 gap-6 xl:grid-cols-2">
                       <Profile />
                       <Chart />
                       <div className="col-span-2">

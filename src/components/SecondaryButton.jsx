@@ -3,7 +3,7 @@
 const SecondaryButton = ({ children, classes }) => {
   return (
     <button
-      className={`btn rounded-full text-base font-bold capitalize ${classes}`}
+      className={`inline-block rounded-full py-2 text-base font-bold capitalize ${classes}`}
     >
       {children}
     </button>

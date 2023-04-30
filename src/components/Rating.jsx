@@ -4,13 +4,13 @@ import SecondaryButton from './SecondaryButton';
 const Rating = () => {
   return (
     <>
-      <div className="flex flex-col justify-center rounded-xl  py-6  shadow-md">
+      <div className="flex flex-col justify-center  rounded-xl  bg-[#FCFFFE] py-6 shadow-md">
         <div className="flex items-center gap-1.5 px-5">
-          <SecondaryButton classes={`bg-[#14314E] w-36`}>
+          <SecondaryButton classes={`bg-[#14314E] text-white w-36`}>
             Duel Rating
           </SecondaryButton>
 
-          <SecondaryButton classes={`btn-outline text-[#14314E] w-40`}>
+          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-40`}>
             Finish / Saving
           </SecondaryButton>
         </div>
