@@ -3,7 +3,7 @@ import player from '../assets/images/person.png';
 const Player = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center rounded-xl py-6 shadow-md ">
+      <div className="flex flex-col justify-center rounded-xl p-7 shadow-md ">
         <img
           src={player}
           alt=""
