@@ -11,6 +11,7 @@ import Profile from './Profile';
 import Chart from './Chart';
 import Rating from './Rating';
 import Table from './Table';
+import Chart2 from './Chart2';
 
 const Layout = () => {
   return (
@@ -209,6 +210,7 @@ const Layout = () => {
                     <div className="grid w-full grid-cols-1 gap-6 xl:grid-cols-2">
                       <Profile />
                       <Chart />
+                      {/* <Chart2 /> */}
                       <div className="col-span-2">
                         <Rating />
                       </div>
