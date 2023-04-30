@@ -56,28 +56,28 @@ const Player = () => {
           <div className="mt-8 border border-[#DEDEDE]"></div>
 
           <div className="px-5 pt-4">
-            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE]">
+            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE] font-normal text-[#8C8C8C]">
               <option disabled selected>
                 Position
               </option>
               <option>Han Solo</option>
             </select>
 
-            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE]">
+            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE] font-normal text-[#8C8C8C]">
               <option disabled selected>
                 Season
               </option>
               <option>Han Solo</option>
             </select>
 
-            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE]">
+            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE] font-normal text-[#8C8C8C]">
               <option disabled selected>
                 League
               </option>
               <option>Han Solo</option>
             </select>
 
-            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE]">
+            <select className="select-bordered select mb-3.5 w-full bg-[#FCFFFE] font-normal text-[#8C8C8C]">
               <option disabled selected>
                 Team
               </option>

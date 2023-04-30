@@ -9,7 +9,7 @@ const Table = () => {
             Model
           </SecondaryButton>
 
-          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-28`}>
+          <SecondaryButton classes={`text-[#8C8C8C] bg-[#F7F7F7] w-28`}>
             Style
           </SecondaryButton>
         </div>
@@ -88,7 +88,7 @@ const Table = () => {
             <div className="] flex justify-evenly py-4 pt-4">
               <p>-0.13</p>
               <p>-0.03</p>
-              <p className="text-[#721C24 ]  rounded-full bg-[#721C24]/[0.2] px-2.5 py-0.5">
+              <p className="rounded-full  bg-[#721C24]/[0.2] px-2.5 py-0.5 text-[#721C24]">
                 -0.16
               </p>
             </div>

@@ -15,14 +15,14 @@ const Chart = () => {
     <>
       <div className="flex h-full flex-col justify-start  rounded-xl  bg-[#FCFFFE] pt-6 shadow-md">
         <div className="flex items-center gap-1.5 px-5">
-          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-28`}>
+          <SecondaryButton classes={`text-[#8C8C8C] bg-[#F7F7F7] w-28`}>
             Model
           </SecondaryButton>
           <SecondaryButton classes={`bg-[#14314E] w-28 text-white`}>
             Style
           </SecondaryButton>
 
-          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-36`}>
+          <SecondaryButton classes={`text-[#8C8C8C] bg-[#F7F7F7] w-36`}>
             Contribution
           </SecondaryButton>
         </div>

@@ -10,7 +10,7 @@ const Profile = () => {
             Profile
           </SecondaryButton>
 
-          <SecondaryButton classes={`text-[#14314E] bg-[#F7F7F7] w-28`}>
+          <SecondaryButton classes={`text-[#8C8C8C] bg-[#F7F7F7] w-28`}>
             Position
           </SecondaryButton>
         </div>

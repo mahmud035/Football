@@ -18,7 +18,7 @@ const Layout = () => {
       <div>
         <nav className="fixed z-30 w-full border-b border-gray-200 bg-white">
           <div className="px-3 py-3 lg:px-5 lg:pl-3">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between bg-[#FCFFFE]">
               <div className="flex items-center justify-start">
                 <button
                   id="toggleSidebarMobile"
@@ -51,7 +51,7 @@ const Layout = () => {
                 >
                   <img src={logo} className="mr-2 h-11" alt="logo" />
                 </a>
-                <form className="hidden lg:block lg:pl-32">
+                <form className="hidden lg:block lg:pl-16">
                   <label htmlFor="topbar-search" className="sr-only ">
                     Search
                   </label>
@@ -70,11 +70,11 @@ const Layout = () => {
                       type="text"
                       name="email"
                       id="topbar-search"
-                      className="block w-[650px] rounded-lg border border-gray-300 bg-[#F7F7F7] p-2.5 py-3.5 pl-10 text-gray-900 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
+                      className="block w-[650px] rounded-lg border border-gray-300 bg-[#F7F7F7] p-2.5 py-3.5 pl-10 text-xs font-medium text-[#A0AEC0] focus:border-cyan-600 focus:ring-cyan-600"
                       placeholder="Ronaldo Rafael Royero Zuniga"
                     />
                     <PrimaryButton
-                      classes={`absolute top-[1px] right-[-395px] bg-[#14314E] text-xs`}
+                      classes={`absolute top-[-2px] right-[-395px] bg-[#14314E] text-xs`}
                     >
                       Show Result
                     </PrimaryButton>
@@ -97,7 +97,7 @@ const Layout = () => {
         <div className="flex overflow-hidden bg-white pt-16">
           <aside
             id="sidebar"
-            className="transition-width fixed left-0 top-0 z-20 hidden h-full w-64 flex-shrink-0 flex-col pt-16 duration-75 lg:flex"
+            className="transition-width fixed left-0 top-0 z-20 hidden h-full w-64 flex-shrink-0 flex-col bg-[#FCFFFE] pt-16 duration-75 lg:flex"
             aria-label="Sidebar"
           >
             <div className="relative flex min-h-0 flex-1 flex-col border-r border-gray-200 bg-white pt-0">
